@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css';
 import Title from './Title.js';
 import POPOSList from './POPOSList';
+import Footer from './Footer';
+
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <div className="App">
       <Title />
       <POPOSList />
-    </div>
+      <Footer />
+      </div>  
   );
 }
 
