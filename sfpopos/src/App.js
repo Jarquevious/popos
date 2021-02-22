@@ -1,3 +1,4 @@
+import { HashRouter as Router, Route } from 'react-router-dom'
 import React from 'react'
 import './App.css';
 import Title from './Title.js';
@@ -7,12 +8,17 @@ import Footer from './Footer';
 
 
 function App() {
-  return (
-    <div className="App">
-      <Title />
-      <POPOSList />
-      <Footer />
-      </div>  
+  return(
+    <Router>
+
+      <div className="App">
+        <Title />
+        <POPOSList />
+        <Footer />
+      </div> 
+      
+    </Router>
+      
   );
 }
 
