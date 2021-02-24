@@ -1,9 +1,13 @@
 .POPOSSpace {
+  /* Styles for the root element */
   width: 100%;
   text-align: center;
+  position: relative;
+  /* Styles for the root element */
 }
 
-.POPOSSpace > img {
+.POPOSSpace img {
+  /* Styles for the root element */
   width: 100%;
   height: auto;
 }
